@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="../css/loginorregister.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <title>MovieBuzz</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="navbar">
+          <li><a href="./frontpage.html">Home</a></li>
+          <li><a href="./movies.html">Movies</a></li>
+          <li><a href="./bookings.html">Bookings</a></li>
+          <li><a href="./loginorregister.html">Login/Register</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section>
+      <div class="login">
+        <h2>Login</h2>
+        <form autocomplete="off" method="POST" action="frontpage.html">
+          <input
+            placeholder="Email"
+            type="email"
+            name="email"
+            value=""
+            required
+          />
+          <br />
+          <input
+            placeholder="Password"
+            type="password"
+            name="password"
+            value=""
+            required
+          />
+          <br />
+          <input type="submit" name="submit" value="Login" />
+        </form>
+      </div>
+      <div class="register">
+        <h2>Register</h2>
+        <form autocomplete="off" method="POST" action="frontpage.html">
+          <input placeholder="Name" type="text" name="name" value="" required />
+          <br />
+          <input
+            placeholder="Email"
+            type="email"
+            name="Email"
+            value=""
+            required
+          />
+          <br />
+          <input
+            placeholder="Password"
+            type="password"
+            name="password1"
+            value=""
+            required
+          />
+          <br />
+          <input
+            placeholder="Confirm Password"
+            type="password"
+            name="password2"
+            value=""
+            required
+          />
+          <br />
+          <input type="submit" name="submit" value="Register" />
+        </form>
+      </div>
+    </section>
+    <footer class="footer">made with &heartsuit; by &#169; param</footer>
+  </body>
+</html>

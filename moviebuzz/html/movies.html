@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="../css/movies.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <title>MovieBuzz</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="navbar">
+          <li><a href="./frontpage.html">Home</a></li>
+          <li><a href="./movies.html">Movies</a></li>
+          <li><a href="./bookings.html">Bookings</a></li>
+          <li><a href="./loginorregister.html">Login/Register</a></li>
+        </ul>
+      </nav>
+    </header>
+    <script>
+      var istureR = true;
+      function handleClickR(value) {
+        if (value) {
+          istureR = false;
+          document.getElementById("moviewrapperR").style.height = "auto";
+          document.getElementById("buttonR").innerHTML = "Less movies";
+        } else {
+          istureR = true;
+          document.getElementById("moviewrapperR").style.height = "205px";
+          document.getElementById("buttonR").innerHTML = "More movies";
+        }
+      }
+      var istureA = true;
+      function handleClickA(value) {
+        if (value) {
+          istureA = false;
+          document.getElementById("moviewrapperA").style.height = "auto";
+          document.getElementById("buttonA").innerHTML = "Less movies";
+        } else {
+          istureA = true;
+          document.getElementById("moviewrapperA").style.height = "205px";
+          document.getElementById("buttonA").innerHTML = "More movies";
+        }
+      }
+      var istureH = true;
+      function handleClickH(value) {
+        if (value) {
+          istureH = false;
+          document.getElementById("moviewrapperH").style.height = "auto";
+          document.getElementById("buttonH").innerHTML = "Less movies";
+        } else {
+          istureH = true;
+          document.getElementById("moviewrapperH").style.height = "205px";
+          document.getElementById("buttonH").innerHTML = "More movies";
+        }
+      }
+      var istureS = true;
+      function handleClickS(value) {
+        if (value) {
+          istureS = false;
+          document.getElementById("moviewrapperS").style.height = "auto";
+          document.getElementById("buttonS").innerHTML = "Less movies";
+        } else {
+          istureS = true;
+          document.getElementById("moviewrapperS").style.height = "205px";
+          document.getElementById("buttonS").innerHTML = "More movies";
+        }
+      }
+    </script>
+    <section>
+      <div id="romantic">
+        <h2>Romantic shows</h2>
+        <div id="moviewrapperR">
+          <div class="movie">
+            <h4>notebook</h4>
+            <p>imdb 7.1</p>
+          </div>
+          <div class="movie">
+            <h4>notebook</h4>
+            <p>imdb 7.1</p>
+          </div>
+          <div class="movie">
+            <h4>notebook</h4>
+            <p>imdb 7.1</p>
+          </div>
+          <div class="movie">
+            <h4>notebook</h4>
+            <p>imdb 7.1</p>
+          </div>
+          <div class="movie">
+            <h4>notebook</h4>
+            <p>imdb 7.1</p>
+          </div>
+          <div class="movie">
+            <h4>notebook</h4>
+            <p>imdb 7.1</p>
+          </div>
+          <div class="movie">
+            <h4>notebook</h4>
+            <p>imdb 7.1</p>
+          </div>
+          <div class="movie">
+            <h4>notebook</h4>
+            <p>imdb 7.1</p>
+          </div>
+        </div>
+        <div class="more">
+          <button id="buttonR" onclick="handleClickR(istureR)">
+            More movies
+          </button>
+        </div>
+      </div>
+      <div id="action">
+        <h2>Action shows</h2>
+        <div id="moviewrapperA">
+          <div class="movie">
+            <h4>notebook</h4>
+            <p>imdb 7.1</p>
+          </div>
+          <div class="movie">
+            <h4>notebook</h4>
+            <p>imdb 7.1</p>
+          </div>
+          <div class="movie">
+            <h4>notebook</h4>
+            <p>imdb 7.1</p>
+          </div>
+          <div class="movie">
+            <h4>notebook</h4>
+            <p>imdb 7.1</p>
+          </div>
+          <div class="movie">
+            <h4>notebook</h4>
+            <p>imdb 7.1</p>
+          </div>
+          <div class="movie">
+            <h4>notebook</h4>
+            <p>imdb 7.1</p>
+          </div>
+          <div class="movie">
+            <h4>notebook</h4>
+            <p>imdb 7.1</p>
+          </div>
+          <div class="movie">
+            <h4>notebook</h4>
+            <p>imdb 7.1</p>
+          </div>
+        </div>
+        <div class="more">
+          <button id="buttonA" onclick="handleClickA(istureA)">
+            More movies
+          </button>
+        </div>
+      </div>
+      <div id="Horror">
+        <h2>Horror shows</h2>
+        <div id="moviewrapperH">
+          <div class="movie">
+            <h4>notebook</h4>
+            <p>imdb 7.1</p>
+          </div>
+          <div class="movie">
+            <h4>notebook</h4>
+            <p>imdb 7.1</p>
+          </div>
+          <div class="movie">
+            <h4>notebook</h4>
+            <p>imdb 7.1</p>
+          </div>
+          <div class="movie">
+            <h4>notebook</h4>
+            <p>imdb 7.1</p>
+          </div>
+          <div class="movie">
+            <h4>notebook</h4>
+            <p>imdb 7.1</p>
+          </div>
+          <div class="movie">
+            <h4>notebook</h4>
+            <p>imdb 7.1</p>
+          </div>
+          <div class="movie">
+            <h4>notebook</h4>
+            <p>imdb 7.1</p>
+          </div>
+          <div class="movie">
+            <h4>notebook</h4>
+            <p>imdb 7.1</p>
+          </div>
+        </div>
+        <div class="more">
+          <button id="buttonH" onclick="handleClickH(istureH)">
+            More movies
+          </button>
+        </div>
+      </div>
+      <div id="sci-fi">
+        <h2>Sci-fi shows</h2>
+        <div id="moviewrapperS">
+          <div class="movie">
+            <h4>notebook</h4>
+            <p>imdb 7.1</p>
+          </div>
+          <div class="movie">
+            <h4>notebook</h4>
+            <p>imdb 7.1</p>
+          </div>
+          <div class="movie">
+            <h4>notebook</h4>
+            <p>imdb 7.1</p>
+          </div>
+          <div class="movie">
+            <h4>notebook</h4>
+            <p>imdb 7.1</p>
+          </div>
+          <div class="movie">
+            <h4>notebook</h4>
+            <p>imdb 7.1</p>
+          </div>
+          <div class="movie">
+            <h4>notebook</h4>
+            <p>imdb 7.1</p>
+          </div>
+          <div class="movie">
+            <h4>notebook</h4>
+            <p>imdb 7.1</p>
+          </div>
+          <div class="movie">
+            <h4>notebook</h4>
+            <p>imdb 7.1</p>
+          </div>
+        </div>
+        <div class="more">
+          <button id="buttonS" onclick="handleClickS(istureS)">
+            More movies
+          </button>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">made with &heartsuit; by &#169; param</footer>
+  </body>
+</html>
